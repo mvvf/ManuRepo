@@ -66,3 +66,8 @@ print(my_number)
 my_number %= 2 # (módulo) determina la diferencia o restante en la división al número asignado
 print (my_number)
 
+# Operadores de identidad
+
+my_new_number = 1.0
+
+print(f"my_number is my_new_number es {my_number is my_new_number}")

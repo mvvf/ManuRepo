@@ -1,7 +1,18 @@
+titulo1= """Bienvenidos a la Calculadora de Manu.
+
+Por favor, siga las siguientes intrucciones:
+"""
+
+
+print (titulo1)
+
 number1= int (input("Ingresar un número:"))
 number2= int(input("Ingresar otro número:"))
 
+
+
 elección= 0
+
 
 while elección != 6:
     print("""
@@ -39,10 +50,7 @@ Indique la operación a realizar:
 
     if elección== 6:
         print(" ")
-        print("""Gracias por utilizar la calculadora de Manu, 
-directamente desde la Nasa :p """)
-        print("""
+        print("Gracias por utilizar Calculadora de Manu")
 
+        print("😺")
 
-""")
-        
