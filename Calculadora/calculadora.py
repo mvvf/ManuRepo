@@ -39,5 +39,10 @@ Indique la operación a realizar:
 
     if elección== 6:
         print(" ")
-        print("""Gracias por utilizar Calculadora Manu, 
-              directamente desde la Nasa""")
+        print("""Gracias por utilizar la calculadora de Manu, 
+directamente desde la Nasa :p """)
+        print("""
+
+
+""")
+        
