@@ -18,7 +18,23 @@ print(" ")
 print(f"Exponente: 10 ** 3 = {10 ** 3}")
 print(" ")
 print(f"División entera: 10 // 3 = {10 // 3}")
-print(" ")
+print("""
+
+a = 10
+b = 3
+
+
+suma = a + b   # 13
+resta = a - b    # 7
+multiplicacion = a * b    # 30
+division = a / b   # 3.333333333
+división_entera = a // b   # 3
+modulo = a % b   # 1
+exponenciacion = a ** b   # 1000
+""")
+
+
+
 
 # Operadores de comparación
 
@@ -45,8 +61,21 @@ print("Ejercicios con operadores lógicos ")
 print(f"AND : 10 + 3 = 13 and 5 - 1 == 4 es {10 + 3 == 13 and 5 - 1 == 4}")
 print(f"OR : 10 + 3 == 13 or 5 - 1 == 4 es {10 + 3 == 13 or 5 - 1 == 4}")
 print(f"NOT : 10 + 3 == 14 es { not 10 + 3 == 14}")
+print("""
+
+a = 10
+b = 3
+
+igual = a == b   # False
+diferente = a != b   # True
+mayor que = a > b   # True
+menor que = a < b   # False
+mayor o igual = a >= b   # True
+menor o igual = a <= b   # False""")
 print(" ")
-print(" ")
+
+
+
 
 # Operadores de asignación
 

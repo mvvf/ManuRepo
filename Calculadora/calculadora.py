@@ -3,13 +3,8 @@ titulo1= """Bienvenidos a la Calculadora de Manu.
 Por favor, siga las siguientes intrucciones:
 """
 
-
-print (titulo1)
-
-number1= int (input("Ingresar un número:"))
-number2= int(input("Ingresar otro número:"))
-
-
+number1= float (input("Ingresar un número:"))
+number2= float (input("Ingresar otro número:"))
 
 elección= 0
 
@@ -45,8 +40,8 @@ Indique la operación a realizar:
 
     if elección== 5:
         print(" ")
-        number1= int (input("Ingresa un número:"))
-        number2= int(input("Ingresar otro número:"))
+        number1= float (input("Ingresa un número:"))
+        number2= float (input("Ingresar otro número:"))
 
     if elección== 6:
         print(" ")
